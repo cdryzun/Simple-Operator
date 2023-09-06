@@ -1,0 +1,12 @@
+apiVersion: app.github.com/v1alpha1
+kind: AppService
+metadata:
+  labels:
+    app.kubernetes.io/name: appservice
+    app.kubernetes.io/instance: appservice-sample
+    app.kubernetes.io/part-of: simple-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: simple-operator
+  name: appservice-sample
+spec:
+  # TODO(user): Add fields here
